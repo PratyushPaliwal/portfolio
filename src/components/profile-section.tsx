@@ -1,5 +1,5 @@
-// import Image from "next/image";
-import BaseImage from './base-image';
+import Image from "next/image";
+// import BaseImage from './base-image';
 import Link from 'next/link';
 import {
   Github,
@@ -25,7 +25,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
       {aboutMe.imageUrl && (
         <div className="w-1/3 md:w-full flex-shrink-0">
           <div className="relative max-h-[45vh] md:w-[65%] aspect-[3/4]">
-            <BaseImage
+            <Image
               src={aboutMe.imageUrl}
               alt={aboutMe.name}
               fill
