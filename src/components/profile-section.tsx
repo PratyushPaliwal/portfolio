@@ -1,4 +1,4 @@
-import Image from "next/image";
+// import Image from "next/image";
 import BaseImage from './base-image';
 import Link from 'next/link';
 import {
