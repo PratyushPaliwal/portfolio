@@ -57,7 +57,7 @@ export default function RootLayout({
               )}
             </div>
             <div className="mb-4">
-              <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
+              {/* <p className="text-sm text-neutral-500 dark:text-neutral-500 justify">
                 Built with{" "}
                 <a
                   href="https://github.com/tovacinni/research-website-template"
@@ -65,7 +65,7 @@ export default function RootLayout({
                 >
                   research-website-template
                 </a>
-              </p>
+              </p> */}
             </div>
           </div>
         </footer>

@@ -30,11 +30,14 @@ export default function Home() {
           {/* Right Column - Scrolling Content */}
           <div className="col-span-12 md:col-span-7 md:col-start-6 space-y-24">
             {/* About section is typically first */}
+             {/* src/app/page.tsx (modify the about section) */}
+
             {aboutMe.description && (
               <section>
-                <p
+                <div
                   className="font-serif text-sm leading-relaxed text-zinc-700 [&_a]:underline [&_a]:text-zinc-900 [&_a:hover]:text-zinc-600"
                   dangerouslySetInnerHTML={{ __html: aboutMe.description }}
+                  suppressHydrationWarning
                 />
               </section>
             )}
@@ -118,7 +121,7 @@ export default function Home() {
                     portfolioData.length > 0 && (
                       <section key={sectionName}>
                         <h2 className="font-serif text-md mb-12 tracking-wide uppercase">
-                          Portfolio
+                          Projects
                         </h2>
                         <div className="space-y-12">
                           {portfolioData.map((portfolio, index) => (
