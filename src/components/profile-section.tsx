@@ -1,4 +1,6 @@
 import Image from "next/image";
+import BaseImage from './base-image';
+import Link from 'next/link';
 import {
   Github,
   Linkedin,
@@ -23,7 +25,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
       {aboutMe.imageUrl && (
         <div className="w-1/3 md:w-full flex-shrink-0">
           <div className="relative max-h-[45vh] md:w-[65%] aspect-[3/4]">
-            <Image
+            <BaseImage
               src={aboutMe.imageUrl}
               alt={aboutMe.name}
               fill
@@ -74,7 +76,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
             </a>
           )}
           {aboutMe.cvUrl && (
-            <a
+            <Link
               href={aboutMe.cvUrl}
               className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
               target="_blank"
@@ -85,7 +87,7 @@ export function ProfileSection({ aboutMe }: ProfileSectionProps) {
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
               <span className="tracking-wider uppercase">CV</span>
-            </a>
+            </Link>
           )}
         </div>
         <div className="space-y-2">

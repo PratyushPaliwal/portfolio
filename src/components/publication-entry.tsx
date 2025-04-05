@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { ArrowUpRight } from "lucide-react";
 import { Publication } from "@/data/publication";
+import Link from 'next/link';
 
 export function PublicationEntry({
   publication,
@@ -38,7 +39,7 @@ export function PublicationEntry({
         <p className="text-sm text-zinc-600 mb-4">{publication.authors}</p>
         <div className="flex flex-row gap-6">
           {publication.paperUrl && (
-            <a
+            <Link
               href={publication.paperUrl}
               className="group inline-flex items-center gap-2 text-xs text-zinc-500 hover:text-zinc-900 transition-colors duration-300"
               target="_blank"
@@ -49,7 +50,7 @@ export function PublicationEntry({
                 className="group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform duration-300"
               />
               <span className="tracking-wider uppercase">Paper</span>
-            </a>
+            </Link>
           )}
           {publication.codeUrl && (
             <a
