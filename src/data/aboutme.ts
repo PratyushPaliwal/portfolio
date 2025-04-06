@@ -26,7 +26,8 @@ export const aboutMe: AboutMe = {
     `<p>Hello world!</p>
     <p>I am a software engineer with a strong passion for building industry-grade software and delivering products using modern DevOps practices. I have hands-on experience working as a full stack developer and building web applications using contemporary frameworks that are both scalable and maintainable.</p>
     </br>
-    <p>I have expertise in containerization and orchestration—designing secure and efficient container images using Docker/Podman(etc.) and deploying them at scale with Kubernetes. With a comprehensive understanding of DevOps tools and practices across various stages of the SDLC, I have guided several application teams through CI/CD onboarding, streamlining their software deployment processes.</p> 
+    <p>I have expertise in containerization and orchestration—designing secure and efficient container images using Docker/Podman(etc.) and deploying them at scale with Kubernetes. </p>
+    <p>With a comprehensive understanding of DevOps tools and practices across various stages of the SDLC, I have guided several application teams through CI/CD onboarding, streamlining their software deployment processes.</p> 
     <p>I also have a keen interest in automation and have built several internal tools using Python and Shell scripting to optimize team workflows.</p>
     </br>
     <p>Alongside software engineering, I am gaining both theoretical understanding and practical experience in AI/ML and Data Science through my current M.Sc. in Computer Science at <a href="https://www.tu-darmstadt.de/index.en.jsp" target="_blank" rel="noopener noreferrer">Technische Universität Darmstadt</a>, where I am specializing in Data Science Engineering. As part of this journey, I've gained hands-on experience in Natural Language Processing through university coursework and industry-facing projects.</p>
@@ -40,7 +41,7 @@ export const aboutMe: AboutMe = {
   imageUrl: "/linkedinphoto.png",
   linkedinUsername: "paliwalpratyush",
   twitterUsername: "pratyushpa1iwal",
-  blogUrl: "https://", // Update or remove if you don't have a blog
+  // blogUrl: "https://", // Update or remove if you don't have a blog
   // cvUrl: "https://", // Update with your CV URL
   cvUrl: "/Pratyush_resume.pdf", // The path is relative to the public directory", // Update with your CV URL
 

@@ -46,23 +46,6 @@ export default function Home() {
             {sectionOrder.map((sectionName) => {
               // Most of this is redundant... but in case it needs to be unique.
               switch (sectionName) {
-                case Section.News:
-                  return (
-                    newsData.length > 0 && (
-                      <section key={sectionName}>
-                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
-                          News
-                        </h2>
-                        <div className="space-y-12">
-                          {newsData.map((news, index) => (
-                            <div key={index}>
-                              <NewsEntry news={news} />
-                            </div>
-                          ))}
-                        </div>
-                      </section>
-                    )
-                  );
                 case Section.Education:
                   return (
                     educationData.length > 0 && (
@@ -126,6 +109,23 @@ export default function Home() {
                         <div className="space-y-12">
                           {portfolioData.map((portfolio, index) => (
                             <PortfolioEntry key={index} portfolio={portfolio} />
+                          ))}
+                        </div>
+                      </section>
+                    )
+                  );
+                  case Section.News:
+                  return (
+                    newsData.length > 0 && (
+                      <section key={sectionName}>
+                        <h2 className="font-serif text-l mb-12 tracking-wide uppercase">
+                        Recognitions/Trainings
+                        </h2>
+                        <div className="space-y-12">
+                          {newsData.map((news, index) => (
+                            <div key={index}>
+                              <NewsEntry news={news} />
+                            </div>
                           ))}
                         </div>
                       </section>

@@ -13,7 +13,7 @@ export const educationData: Education[] = [
     year: "Oct. 2024—Present",
     institution: "Technische Universität Darmstadt",
     degree: "M.Sc. in Computer Science",
-    // advisor: "Prof. Sarah Johnson",
+    advisor: "Data Science Engineering",
   },
   {
     year: "2017—2021",
