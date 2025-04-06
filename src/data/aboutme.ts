@@ -23,13 +23,15 @@ export const aboutMe: AboutMe = {
   institution: "Technische Universität Darmstadt",
   // Note that links work in the description
   description:
-    `<p>Hello! I am a software engineer with a strong passion for building industry-grade software and delivering products using modern DevOps practices. I have hands-on experience in developing web applications using JavaScript, React-Redux, and Django. My core expertise lies in containerization and orchestration—designing secure and efficient container images using Docker and deploying them at scale with Kubernetes. I've also guided several application teams in adopting robust CI/CD pipelines using GitLab CI.</p>
-</br>
-    <p>Alongside my software engineering experience, I am aiming for a strong foundation in Data Science through my current M.Sc. in Computer Science at <a href="https://www.tu-darmstadt.de/index.en.jsp">Technische Universität Darmstadt</a>, where I am specializing in Data Science Engineering.</p>
-</br>
-    <p>As part of this journey, I've gained practical experience in Natural Language Processing through both university coursework and industry-facing projects. I also have a keen interest in automation and have built several internal tools using Python and Shell scripting to optimize team workflows.</p>
-</br>
-    <p>While I, like many, am fascinated by the rise of AI, I pursue it through a traditional, grounded approach—building understanding from first principles and thoughtfully applying that knowledge to real-world problems. My aim is to keep learning, keep exploring, and most importantly, to transition true knowledge into applied knowledge by solving problems that matter.</p>`,
+    `<p>Hello world!</p>
+    <p>I am a software engineer with a strong passion for building industry-grade software and delivering products using modern DevOps practices. I have hands-on experience working as a full stack developer and building web applications using contemporary frameworks that are both scalable and maintainable.</p>
+    </br>
+    <p>I have expertise in containerization and orchestration—designing secure and efficient container images using Docker/Podman(etc.) and deploying them at scale with Kubernetes. With a comprehensive understanding of DevOps tools and practices across various stages of the SDLC, I have guided several application teams through CI/CD onboarding, streamlining their software deployment processes.</p> 
+    <p>I also have a keen interest in automation and have built several internal tools using Python and Shell scripting to optimize team workflows.</p>
+    </br>
+    <p>Alongside software engineering, I am gaining both theoretical understanding and practical experience in AI/ML and Data Science through my current M.Sc. in Computer Science at <a href="https://www.tu-darmstadt.de/index.en.jsp" target="_blank" rel="noopener noreferrer">Technische Universität Darmstadt</a>, where I am specializing in Data Science Engineering. As part of this journey, I've gained hands-on experience in Natural Language Processing through university coursework and industry-facing projects.</p>
+    </br>
+    <p>My aim is to keep learning, keep exploring, and most importantly, to transition true knowledge into applied knowledge by solving problems at hand.</p>`,
   email: "pratyush.paliwal@stud.tu-darmsatdt.de",
   // imageUrl:
     // "https://images.unsplash.com/photo-1581481615985-ba4775734a9b?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
