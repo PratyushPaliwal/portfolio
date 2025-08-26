@@ -15,7 +15,7 @@ export const experienceData: Experience[] = [
     company: "Fraunhofer SIT",
     description:
       `<ul class="list-disc pl-5 space-y-2 mt-2">
-        <li>LExperimenting with Deep learning frameworks for NLP to detect unsolicited chat behavior and Authorship
+        <li>Experimenting with Deep learning frameworks for NLP to detect unsolicited chat behavior and Authorship
 Attribution in online spaces, while building interactive front-end demonstrations supporting interactive UI/UX.</li>
       </ul>`,
     companyUrl: "https://www.sit.fraunhofer.de/de/",
