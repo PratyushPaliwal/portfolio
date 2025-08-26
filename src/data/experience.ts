@@ -10,6 +10,17 @@ export interface Experience {
 
 export const experienceData: Experience[] = [
   {
+    date: "June 2025 - Present",
+    title: "Research Assistant",
+    company: "Fraunhofer SIT",
+    description:
+      `<ul class="list-disc pl-5 space-y-2 mt-2">
+        <li>LExperimenting with Deep learning frameworks for NLP to detect unsolicited chat behavior and Authorship
+Attribution in online spaces, while building interactive front-end demonstrations supporting interactive UI/UX.</li>
+      </ul>`,
+    companyUrl: "https://www.sit.fraunhofer.de/de/",
+  },
+  {
     date: "Feb. 2023 - Sept. 2024",
     title: "Software Engineer - 2",
     company: "Dell",
