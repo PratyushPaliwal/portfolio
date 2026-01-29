@@ -18,7 +18,7 @@ export const publicationData: Publication[] = [
     conference: "USPTO",
     title: "Automated Error Resolution in a Software Deployment Pipeline",
     authors: "",
-    paperUrl: "https://ppubs.uspto.gov/pubwebapp/",
+    paperUrl: "https://patents.google.com/patent/US20240345904A1/en?inventor=Pratyush+Paliwal",
     // codeUrl: "https://github.com/jsmith/scalable-causal-discovery",
     //bibtex: "https://arxiv.org/abs/2409.15476.bib",
     tldr: "Self Sustaining CI/CD pipelines handling job failures powered by NLP Model trained on a large error-resolution dataset and automation Scripts. Patent Number: US-20240345904-A1.",
