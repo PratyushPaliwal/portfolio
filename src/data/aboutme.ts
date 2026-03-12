@@ -30,7 +30,7 @@ export const aboutMe: AboutMe = {
     <p>With a comprehensive understanding of DevOps tools and practices across various stages of the SDLC, I have guided several application teams through CI/CD onboarding, streamlining their software deployment processes.</p> 
     <p>I also have a keen interest in automation and have built several internal tools using Python and Shell scripting to optimize team workflows.</p>
     </br>
-    <p>Alongside software engineering, I am gaining both theoretical understanding and practical experience in AI/ML and Data Science through my current M.Sc. in Computer Science at <a href="https://www.tu-darmstadt.de/index.en.jsp" target="_blank" rel="noopener noreferrer">Technische Universität Darmstadt</a>, where I am specializing in Data Science Engineering. As part of this journey, I've gained hands-on experience in Natural Language Processing through university coursework and industry-facing projects.</p>
+    <p>Alongside software engineering, I am gaining both theoretical understanding and practical experience in AI/ML and Data Science through my current M.Sc. in Computer Science at <a href="https://www.tu-darmstadt.de/index.en.jsp" target="_blank" rel="noopener noreferrer">Technische Universität Darmstadt</a>, where I am specializing in Data Science Engineering. As part of this journey, I've gained hands-on experience in NLP and Computer Vision through university coursework, working with labs and industry-facing projects.</p>
     </br>
     <p>My aim is to keep learning, keep exploring, and most importantly, to transition true knowledge into applied knowledge by solving problems at hand.</p>`,
   email: "pratyush.paliwal@stud.tu-darmsatdt.de",
