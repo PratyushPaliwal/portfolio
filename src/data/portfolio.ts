@@ -16,6 +16,13 @@ export const portfolioData: Portfolio[] = [
     technologies: ["NLP", "serverhooks", "ELK Stack"]
   },
   {
+    title: "Contact free Coffee weight Estimation using scanline approach",
+    description: 
+    "Worked on a Computer Vision based approach of estimating weight of falling coffee from grinder. This project involved using videos of coffee grinding and using a scanline image based representation to train visual models for weight estimation.",
+    technologies: ['Computer Vision', 'Visual Data', 'CNNs', 'Image Processing and Augmentations'],
+    projectUrl: '/coffee_report.pdf'
+  },
+  {
     title: "BM25 based text Search Engine",
     description:
       "BM25-based search engine using a sparse index on the SciQ dataset.",
