@@ -16,6 +16,13 @@ export const portfolioData: Portfolio[] = [
     technologies: ["NLP", "serverhooks", "ELK Stack"]
   },
   {
+    title: "DeCards.app - An application for easy memorization of German Vocabulary",
+    description: 
+    "working on a flashcards based app, grouping multiple words from german vocabulary falling in similar category. The app utilizes SM2 algorithm which schedules next review of words based on current progress of memorization. This app also allows login using Google accounts and saves progress across devices.",
+    technologies: ["Web App Development", "React + Tailwind", "Firebase"],
+    projectUrl: "https://decards.app/"
+  },
+  {
     title: "Contact free Coffee weight Estimation using scanline approach",
     description: 
     "Worked on a Computer Vision based approach of estimating weight of falling coffee from grinder. This project involved using videos of coffee grinding and using a scanline image based representation to train visual models for weight estimation.",
