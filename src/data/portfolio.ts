@@ -16,6 +16,13 @@ export const portfolioData: Portfolio[] = [
     technologies: ["NLP", "serverhooks", "ELK Stack"]
   },
   {
+    title: "DataMFM Challenge - Chart & Document Understanding",
+    description: 
+    "Competed in the DataMFM Challenge at CVPR 2026, building inference pipelines for document parsing and chart-to-CSV and summary generation across 4,800+ images. Chained IBM Granite 4.0 3B Vision and Qwen2.5-VL 7B in a two-stage pipeline — CSV extraction followed by image-conditioned summary generation — achieving CSV Numeric F1 of 65.52; replaced Docling with PaddleOCR-VL-1.6 (SOTA 96.33% on OmniDocBench) for document parsing, achieving Table TEDS of 74.93.",
+    technologies: ["VLMs", "Python", "visual-language models"],
+    projectUrl: "https://github.com/PratyushPaliwal/datamfm"
+  },
+  {
     title: "DeCards.app - An application for easy memorization of German Vocabulary",
     description: 
     "working on a flashcards based app, grouping multiple words from german vocabulary falling in similar category. The app utilizes SM2 algorithm which schedules next review of words based on current progress of memorization. This app also allows login using Google accounts and saves progress across devices.",
